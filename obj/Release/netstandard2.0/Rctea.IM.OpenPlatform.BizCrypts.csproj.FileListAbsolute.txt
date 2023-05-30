@@ -1,0 +1,12 @@
+F:\Dev\IMvnext\IMvnext-netcore\src\Rctea.IM.OpenPlatform.BizCrypts\bin\Release\netstandard2.0\Rctea.IM.OpenPlatform.BizCrypts.deps.json
+F:\Dev\IMvnext\IMvnext-netcore\src\Rctea.IM.OpenPlatform.BizCrypts\bin\Release\netstandard2.0\Rctea.IM.OpenPlatform.BizCrypts.dll
+F:\Dev\IMvnext\IMvnext-netcore\src\Rctea.IM.OpenPlatform.BizCrypts\bin\Release\netstandard2.0\Rctea.IM.OpenPlatform.BizCrypts.pdb
+F:\Dev\IMvnext\IMvnext-netcore\src\Rctea.IM.OpenPlatform.BizCrypts\bin\Release\netstandard2.0\Rctea.IM.OpenPlatform.BizCrypts.xml
+F:\Dev\IMvnext\IMvnext-netcore\src\Rctea.IM.OpenPlatform.BizCrypts\obj\Release\netstandard2.0\Rctea.IM.OpenPlatform.BizCrypts.csproj.AssemblyReference.cache
+F:\Dev\IMvnext\IMvnext-netcore\src\Rctea.IM.OpenPlatform.BizCrypts\obj\Release\netstandard2.0\Rctea.IM.OpenPlatform.BizCrypts.GeneratedMSBuildEditorConfig.editorconfig
+F:\Dev\IMvnext\IMvnext-netcore\src\Rctea.IM.OpenPlatform.BizCrypts\obj\Release\netstandard2.0\Rctea.IM.OpenPlatform.BizCrypts.AssemblyInfoInputs.cache
+F:\Dev\IMvnext\IMvnext-netcore\src\Rctea.IM.OpenPlatform.BizCrypts\obj\Release\netstandard2.0\Rctea.IM.OpenPlatform.BizCrypts.AssemblyInfo.cs
+F:\Dev\IMvnext\IMvnext-netcore\src\Rctea.IM.OpenPlatform.BizCrypts\obj\Release\netstandard2.0\Rctea.IM.OpenPlatform.BizCrypts.csproj.CoreCompileInputs.cache
+F:\Dev\IMvnext\IMvnext-netcore\src\Rctea.IM.OpenPlatform.BizCrypts\obj\Release\netstandard2.0\Rctea.IM.OpenPlatform.BizCrypts.dll
+F:\Dev\IMvnext\IMvnext-netcore\src\Rctea.IM.OpenPlatform.BizCrypts\obj\Release\netstandard2.0\Rctea.IM.OpenPlatform.BizCrypts.xml
+F:\Dev\IMvnext\IMvnext-netcore\src\Rctea.IM.OpenPlatform.BizCrypts\obj\Release\netstandard2.0\Rctea.IM.OpenPlatform.BizCrypts.pdb

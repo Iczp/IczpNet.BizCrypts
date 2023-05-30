@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Rctea.IM.OpenPlatform.BizCrypts</name>
+    </assembly>
+    <members>
+        <member name="T:Rctea.IM.OpenPlatform.BizCrypts.BizCrypt">
+            <summary>
+            BizCrypt
+            </summary>
+        </member>
+        <member name="P:Rctea.IM.OpenPlatform.BizCrypts.BizCrypt.Token">
+            <summary>
+            公众平台上，开发者设置的Token
+            </summary>
+        </member>
+        <member name="P:Rctea.IM.OpenPlatform.BizCrypts.BizCrypt.EncodingAesKey">
+            <summary>
+            公众平台上，开发者设置的EncodingAESKey
+            </summary>
+        </member>
+        <member name="P:Rctea.IM.OpenPlatform.BizCrypts.BizCrypt.OfficalId">
+            <summary>
+            公众号的OfficalId
+            </summary>
+        </member>
+        <member name="M:Rctea.IM.OpenPlatform.BizCrypts.BizCrypt.#ctor(System.String,System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="token">公众平台上，开发者设置的Token</param>
+            <param name="encodingAesKey">公众平台上，开发者设置的EncodingAESKey</param>
+            <param name="officalId">公众号的OfficalId</param>
+        </member>
+        <member name="M:Rctea.IM.OpenPlatform.BizCrypts.BizCrypt.Decrypt(System.String)">
+            <summary>
+            解密
+            </summary>
+            <param name="cipherText">密文</param>
+            <returns></returns>
+        </member>
+        <member name="M:Rctea.IM.OpenPlatform.BizCrypts.BizCrypt.Encrypt(System.String)">
+            <summary>
+            消息加密
+            </summary>
+            <param name="plaintext">明文</param>
+            <returns></returns>
+        </member>
+        <member name="M:Rctea.IM.OpenPlatform.BizCrypts.BizCrypt.VerifySignature(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+             验证签名
+            </summary>
+            <param name="signature">签名</param>
+            <param name="token">公众平台上，开发者设置的Token</param>
+            <param name="timeStamp">时间戳</param>
+            <param name="nonce">随机数</param>
+            <param name="cipherText">密文</param>
+            <returns></returns>
+        </member>
+        <member name="M:Rctea.IM.OpenPlatform.BizCrypts.BizCrypt.GenerateSignature(System.String,System.String,System.String,System.String)">
+            <summary>
+            生成签名
+            </summary>
+            <param name="token">公众平台上，开发者设置的Token</param>
+            <param name="timeStamp">时间戳</param>
+            <param name="nonce">随机数</param>
+            <param name="cipherText">密文</param>
+            <returns></returns>
+        </member>
+        <member name="M:Rctea.IM.OpenPlatform.BizCrypts.BizCrypt.CreateRandCode(System.Int32,System.String)">
+            <summary>
+            使用Guid产生的种子生成真随机数
+            </summary>
+            <param name="length">长度</param>
+            <param name="codeSerial">取值范围</param>
+            <returns></returns>
+        </member>
+        <member name="T:Rctea.IM.OpenPlatform.BizCrypts.Cryptography">
+            <summary>
+            密码学
+            </summary>
+        </member>
+        <member name="M:Rctea.IM.OpenPlatform.BizCrypts.Cryptography.HostToNetworkOrder(System.UInt32)">
+            <summary>
+            获取主机到网络的订单值
+            </summary>
+            <param name="inval">输入值</param>
+            <returns></returns>
+        </member>
+        <member name="M:Rctea.IM.OpenPlatform.BizCrypts.Cryptography.HostToNetworkOrder(System.Int32)">
+            <summary>
+            获取主机到网络的订单值
+            </summary>
+            <param name="inval">输入值</param>
+            <returns></returns>
+        </member>
+        <member name="M:Rctea.IM.OpenPlatform.BizCrypts.Cryptography.AESDecrypt(System.String,System.String,System.String@)">
+            <summary>
+            解密方法
+            </summary>
+            <param name="Input">密文</param>
+            <param name="EncodingAESKey">秘钥</param>
+            <param name="corpid">企业id</param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:Rctea.IM.OpenPlatform.BizCrypts.Cryptography.AESEncrypt(System.String,System.String,System.String)">
+            <summary>
+            加密方法
+            </summary>
+            <param name="ciphertext">密文</param>
+            <param name="encodingAESKey">秘钥</param>
+            <param name="officalId">公众号Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:Rctea.IM.OpenPlatform.BizCrypts.Cryptography.CreateRandCode(System.Int32)">
+            <summary>
+            创建随机码
+            </summary>
+            <param name="codeLen">码长度</param>
+            <returns></returns>
+        </member>
+        <member name="M:Rctea.IM.OpenPlatform.BizCrypts.Cryptography.CreateRandCodeByGuid(System.Int32,System.String)">
+            <summary>
+            使用Guid产生的种子生成真随机数
+            </summary>
+            <param name="length">长度</param>
+            <param name="codeSerial">取值范围</param>
+            <returns></returns>
+        </member>
+        <member name="M:Rctea.IM.OpenPlatform.BizCrypts.Cryptography.AESEncrypt(System.String,System.Byte[],System.Byte[])">
+            <summary>
+            加密方法
+            </summary>
+            <param name="ciphertext">密文</param>
+            <param name="iv">Iv</param>
+            <param name="key">Key</param>
+            <returns></returns>
+        </member>
+        <member name="M:Rctea.IM.OpenPlatform.BizCrypts.Cryptography.AESEncrypt(System.Byte[],System.Byte[],System.Byte[])">
+            <summary>
+            加密方法
+            </summary>
+            <param name="ciphertext">密文</param>
+            <param name="iv">Iv</param>
+            <param name="key">Key</param>
+            <returns></returns>
+        </member>
+        <member name="M:Rctea.IM.OpenPlatform.BizCrypts.Cryptography.KCS7Encoder(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="text_length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rctea.IM.OpenPlatform.BizCrypts.Cryptography.ToChar(System.Int32)">
+            将数字转化成ASCII码对应的字符，用于对明文进行补码
+            
+            @param a 需要转化的数字
+            @return 转化得到的字符
+        </member>
+        <member name="M:Rctea.IM.OpenPlatform.BizCrypts.Cryptography.AESDecrypt(System.String,System.Byte[],System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="ciphertext"></param>
+            <param name="iv"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Rctea.IM.OpenPlatform.BizCrypts.Cryptography.Decode2(System.Byte[])">
+            <summary>
+            
+            </summary>
+            <param name="decrypted"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

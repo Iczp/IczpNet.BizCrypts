@@ -1,0 +1,12 @@
+F:\Dev\abpvnext\IczpNet.BizCrypts\bin\Debug\netstandard2.0\IczpNet.BizCrypts.deps.json
+F:\Dev\abpvnext\IczpNet.BizCrypts\bin\Debug\netstandard2.0\IczpNet.BizCrypts.dll
+F:\Dev\abpvnext\IczpNet.BizCrypts\bin\Debug\netstandard2.0\IczpNet.BizCrypts.pdb
+F:\Dev\abpvnext\IczpNet.BizCrypts\bin\Debug\netstandard2.0\IczpNet.BizCrypts.xml
+F:\Dev\abpvnext\IczpNet.BizCrypts\obj\Debug\netstandard2.0\IczpNet.BizCrypts.csproj.AssemblyReference.cache
+F:\Dev\abpvnext\IczpNet.BizCrypts\obj\Debug\netstandard2.0\IczpNet.BizCrypts.GeneratedMSBuildEditorConfig.editorconfig
+F:\Dev\abpvnext\IczpNet.BizCrypts\obj\Debug\netstandard2.0\IczpNet.BizCrypts.AssemblyInfoInputs.cache
+F:\Dev\abpvnext\IczpNet.BizCrypts\obj\Debug\netstandard2.0\IczpNet.BizCrypts.AssemblyInfo.cs
+F:\Dev\abpvnext\IczpNet.BizCrypts\obj\Debug\netstandard2.0\IczpNet.BizCrypts.csproj.CoreCompileInputs.cache
+F:\Dev\abpvnext\IczpNet.BizCrypts\obj\Debug\netstandard2.0\IczpNet.BizCrypts.dll
+F:\Dev\abpvnext\IczpNet.BizCrypts\obj\Debug\netstandard2.0\IczpNet.BizCrypts.xml
+F:\Dev\abpvnext\IczpNet.BizCrypts\obj\Debug\netstandard2.0\IczpNet.BizCrypts.pdb
